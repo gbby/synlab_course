@@ -1,0 +1,167 @@
+/* COLOURS
+ *
+ * green: #50D53A
+ * grey: #6A6A70
+ * blue: #46B3DE
+ * red: #DB3E3E
+ * purple: #9D03D1
+ * orange: #FF6600
+*/
+
+/* HEADER */
+header {
+    background-image: none; 
+}
+
+header ul {
+    width: 101%;
+    margin: 0;
+    padding-left: 0px;
+}
+
+header #home:hover {
+    color: #50D53A; 
+}
+
+header #games:hover {
+    color: #46B3DE; 
+}
+
+header #tech:hover {
+    color: #DB3E3E; 
+}
+
+header #media:hover {
+    color: #9D03D1; 
+}
+
+header #research:hover {
+    color: #FF6600; 
+}
+
+#header {
+    max-width: 100%;
+    margin-bottom: 0;
+    height: 122px;
+}
+
+/* GAMES PAGE */
+#games_h2 {
+    color: #46B3DE;
+}
+
+/* TECHNOLOGY PAGE */
+#tech_h2 {
+    color: #DB3E3E;
+}
+
+/* MEDIA PAGE */
+#media_h2 {
+    color: #9D03D1;
+    margin-top: 25px;
+}
+
+/* RESEARCH PAGE */
+#research_h2 {
+    color: #FF6600;
+}
+
+/* GENERAL */
+#synlab-link:hover {
+    text-decoration: none;
+    color: #FF6600;
+}
+
+#pages_h3 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#pages_h4 {
+    padding-left: 15px;
+}
+
+.pages_p {
+    padding-left: 20px;
+}
+
+.pages_img {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+main {
+    background-image: url('/media/project_sites/gamewell/stripes.jpg');
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 25px;
+}
+
+#gamewell {
+    background: #ffffff;
+    box-shadow: 5px 5px 5px #6A6A70;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    max-width: 100%;
+}
+
+#gamewell img {
+    box-shadow: 2px 2px 2px #6A6A70;
+}
+
+iframe {
+    box-shadow: 2px 2px 2px #6A6A70;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #50D53A;
+}
+
+h4 {
+    padding-left: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #6A6A70;
+    font-weight: bold;
+}
+
+#home-row {
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+/* TEAM */
+#team {
+    padding: 0;
+}
+
+#team-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#team-list li {
+    padding-top: 5px;
+    margin-left: 0;
+}
+
+#team-list li img {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+/* FOOTER */
+footer { 
+    height: 110px;
+}
+
+/* IMG GALLERY */
+#gallery-row {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

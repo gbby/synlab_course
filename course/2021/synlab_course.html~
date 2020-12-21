@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Embodied Digital Media</title>
+
+
+    <!-- Favicons - 
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--<link rel="apple-touch-icon" href="img/apple-touch-icon.png">-->
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Embodied Digital Media</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#tf-home" class="page-scroll">Home</a></li>
+                    <li><a href="#tf-about" class="page-scroll">About</a></li>
+                    <!-- team becomes instructors -->
+                    <li><a href="#tf-team" class="page-scroll">Instructors</a></li>
+                    <li><a href="#tf-schedule" class="page-scroll">Schedule</a></li>
+                    <li><a href="#tf-admin" class="page-scroll">Syllabus</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Home Page
+    ==========================================-->
+    <div id="tf-home" class="text-center">
+        <div class="overlay">
+            <div class="content">
+                <h1> Embodied Digital Media: Research/Design </h1>
+                <h1>RTA 995 & MP 8995 <strong> -- <span class="color">Winter 2020</span></strong></h1>
+                <!-- <p class="lead">This is a course about the <strong>theory and practice</strong> of <strong>Tangible and Embodied Interaction</strong></p> -->
+                <!-- <p style="margin-left:100px; margin-right:100px;">
+                     Few digital technologies make use of the connection between our bodies and minds to support creativity and knowledge production. This research and design centered course will provide students with the unique opportunity to envision the shape of research-based education in digital and embodied media, while working in the Synaesthetic Media Lab (Synlab) on cutting edge projects in Tangible and Embodied Interaction for creativity, discovery and expression.
+                     </p> -->
+                <!-- hover turns to wrong highlight color, plus image needs to be longer -->
+                <!-- <a href="#tf-about" class="fa fa-angle-down page-scroll"></a> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Page
+    ==========================================-->
+    <div id="tf-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/genetic.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                          <!-- <h4>About RTA 995/MP 8995</h4> -->
+                            <h2><strong>About RTA 995/MP 8995</strong></h2>
+                            <div class="line">
+                                <hr>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="intro">Few digital technologies make use of the connection between our bodies and minds to support creativity and knowledge production. This research and design centered course will provide students with the unique opportunity to envision the shape of research-based education in digital and embodied media, while working in the Synaesthetic Media Lab (Synlab) on cutting edge projects in Tangible and Embodied Interaction for creativity, discovery and expression. The course aims to engage students with the theory and practice of novel tangible and embodied human-computer interfaces.<br><br>
+                          Upon completing this course students will be able to:
+                        </p>
+                        <ul class="about-list">
+                            <li><span class="fa fa-dot-circle-o"></span>
+                              <strong>Evaluation</strong> - Analyze and critically evaluate existing tangible/embodied interaction systems using formal knowledge from the field.
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Research</strong> - Formulate research questions, prepare a research plan, and carry out research in the area of tangible and embodied interaction design.
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Design</strong> - Devise, design, develop, and evaluate tangible/embodied interaction systems and contextualize them within the field.
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Page
+    ==========================================-->
+    <div id="tf-team" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2><strong>instructors & project leads</strong></h2>
+
+
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+
+                <div id="team" class="owl-carousel owl-theme row">
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/mazalek.jpg" alt="Ali photo" class="img-circle team-img">
+                            <div class="caption">
+                                <h3><a href="https://www.ryerson.ca/rta/People/faculty/ali-mazalek/">Ali Mazalek</a></h3>
+                                <p>Associate Professor</p>
+                                <p>Office hours: <a href="https://calendly.com/oshaer/office-hours">by appointment </a><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/manshaei.png" alt="Roozbeh photo" class="img-circle team-img">
+                            <div class="caption">
+                              <h3><a href="https://ca.linkedin.com/in/roozbehmanshaei">Roozbeh Manshaei</h3>
+                                <p>Postdoc</p>
+                                <p>Office hours: <a href="https://calendly.com/dtosca/cs-320-office-hours-diana">by appointment </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/tarun.png" alt="Aneesh photo" class="img-circle team-img">
+                            <div class="caption">
+                              <h3><a href="https://www.aneeshpt.com/">Aneesh Tarun</h3>
+                                <p>Postdoc</p>
+                                <p>Office hours: <a href="https://calendly.com/jburmeis/cs220-office-hours">by appointment </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img src="img/team/resch.png" alt="Gabby photo" class="img-circle team-img">
+                            <div class="caption">
+                              <h3><a href="http://losingtime.ca/">Gabby Resch</h3>
+                                <p>Postdoc</p>
+                                <p>Office hours: <a href="https://wellesley.zoom.us/j/95787900002">by appointment</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SCHEDULE section
+    ==========================================-->
+    <div id="tf-schedule">
+        <div class="container">
+            <!-- Container -->
+            <div class="section-title text-center center">
+                <h2><strong>Schedule</strong></h2>
+                <hr>
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjshWSIpLVJvQ4Ur7YViId8ZRsyrTOMh-5LyOXb_Ctv3WCmmfCcL1WqjzW8ejOoiDDoUE6phLzkqU7/pubhtml?gid=0&single=true" width="1250" height="1100"></iframe>
+            </div>
+	    
+            <div class="line">
+                <hr>
+            </div>
+
+            <!-- Administrative details  -->
+            <!-- Admin Section
+    ==========================================-->
+            <div id="tf-admin">
+                <div class="container">
+                    <!-- Container -->
+                    <div class="section-title text-center center">
+                        <h2><strong>Syllabus</strong></h2>
+                    </div>
+                    <div class="line">
+                        <hr>
+                    </div>
+
+                    <h3>Learning Outcomes</h3>
+                    <ul class="simple-list">
+                      <li><span class="fa fa-square-o"></span>• Analyze and critically evaluate existing tangible/embodied interaction systems using formal knowledge from the field.</li>
+                      <li><span class="fa fa-square-o"></span>• Formulate research questions, prepare a research plan, and carry out research in the area of tangible and embodied interaction design.</li>
+                      <li><span class="fa fa-square-o"></span>• Devise, design, develop, and evaluate tangible/embodied interaction systems and contextualize them within the field.</li>
+                    </ul>
+		    
+                    <h3>Logistics</h3>
+                    <p>The class runs from 12-3pm on Thursdays. Online attendance is mandatory.</p>
+		    
+                    <h3>Expectations</h3>
+                    <p>The Synlab is an active research lab that has been running a research-based course since 2005, first at Georgia Tech and now at Ryerson. Students have the opportunity to participate in new and ongoing projects in the lab. Each student is expected to join one research project team for the semester, but may also get involved in other projects as well. Project teams will present their workplans at the beginning of the semester, their work-in-progress during the semester, and their final projects at the end of the semester. For work-in-progress presentations, teams are encouraged to engage the rest of the lab in their work process through whatever means suits the current stage of their project (e.g., design brainstorming, demonstrating or testing a prototype, etc.).</p>
+		    
+                    <!-- <h3>Topics
+			 </h3>
+			 <ul class="simple-list">
+                         <li> <span class="fa fa-square-o"></span>Introduction to tangible and embodied interaction
+                         <li> <span class="fa fa-square-o"></span>Application domains
+                         <li> <span class="fa fa-square-o"></span>Conceptual framworks and taxonomies
+                         <li> <span class="fa fa-square-o"></span>Cognitive foundations
+                         <li> <span class="fa fa-square-o"></span>Gestural interfaces
+                         <li> <span class="fa fa-square-o"></span>Mixed-Reality Interaction&nbsp;
+                         <li> <span class="fa fa-square-o"></span>Physical computing: microcontrollers, sensors, and actuators
+                         <li><span class="fa fa-square-o"> </span>Rapid prototyping</li>
+                         <li> <span class="fa fa-square-o"></span>Iterative design techniques </li>
+			 </ul> -->
+
+                    <!-- <h3>Textbook, Readings, and Materials</h3>
+			 <p>We will be using a new (currently in press) book as well as research papers. All materials will be available in the course e-reserve Google drive, The book we will be using is: </p>
+			 <p><a href="">Weaving Fire into Form: Aspirations for Tangible and Embodied Interaction</a> by Brygg Ullmer, Orit Shaer, Ali Mazalek, and Caroline Hummles. </p>
+			 <p> While there are no text book expenses in this course, there is an equivalent materials fee - students are expected to purchase materials (e.g. art and craft materials, sensors, wires) for their projects. If this poses an obstacle or difficulties for you - <em>please talk to the instructor (we can always find a solution)</em>.
+			 <h3>Course Requirements </h3>
+			 <p>The course requires active participation in class through discussion and hands-on activities. <br>
+                         Students are required to prepare for class by completing the reading prior to lecture.
+			 <p>There are 3 <strong><em>homework assignments</em></strong> in this course that explore conceptual and technical aspects of novel user interfaces.</p>
+			 <p>In addition, the course has a <strong><em>final project</em></strong> that requires students to work in teams to design, implement and evaluate a tangible user interface. <br>
+                         As part of your team project, you will be expected to do the following:</p>
+			 <ul class="simple-list">
+                         <li> <span class="fa fa-square-o"></span> Develop a conceptual design for a new tangible user interface</li>
+                         <li> <span class="fa fa-square-o"></span> Build the tangible user interface you have designed. This is an iterative process in which you will re-design, build, and evaluate several times.</li>
+                         <li> <span class="fa fa-square-o"></span>Document your tangible user interface with pictures, video, diagrams, and text in a public web page.</li>
+                         <li> <span class="fa fa-square-o"></span> Present the tangible user interfave you have built in the course virtual open house.</li>
+                         <li> <span class="fa fa-square-o"></span> Reflect on your own learning and contributions to the project. </li>
+			 </ul>
+			 <p>
+			 <p>There will be 3 in-class quizzes.
+			 <p>The dates of the assignments, project milestones, and quizzes&nbsp; are listed on the <a href="#tf-schedule">schedule</a>.
+			 <h3>Grading Policy
+			 </h3>
+			 <p>Your final grade for the course will be computed as a weighted average of several components. The relative weight of each component is shown below:
+			 <ul class="simple-list">
+                         <li> <span class="fa fa-check"></span>
+                         Assignments: 30% </li>
+
+                         <li> <span class="fa fa-check"></span>
+                         Quizzes (in-class): 30% (will drop lowest quiz score) </li>
+                         <li> <span class="fa fa-check"></span> Group project: 35% </li>
+                         <li> <span class="fa fa-check"></span>Class Participation: 5% </li>
+                         <li> <span class="fa fa-check"></span>Total: 100%</li>
+			 </ul>
+			 <p> The mapping from numerical score to letter grade looks like this: &gt;=95 is an A, &gt;=90 is an A-, &gt;=86 is a B+, &gt;=83 is a B, &gt;80 is a B-, &gt;=75 is a C+, &gt;=73 is a C, &gt;=70 is a C-, &gt;=60 is a D, &lt;60 is an F.</p>
+			 <div id="policy">
+
+                         <h3>Late Assignments</h3>
+                         <p>You are encouraged to submit assignments on the requested deadline but you may submit it up to 48h after the deadline (weekends and holidays counting in total as one 24h period). If you need extra time beyond this grace period, it is required that you contact the instructor and discuss a plan for completing the assignment. We will work together to make sure that plan is a reasonable and effective so that it supports both your learning and your health.</p>
+
+                         <h3>Collaboration</h3>
+                         <p>The Wellesley College honor code applies to CS320. This course emphasizes collaboration, as working effectively within teams is an important part of the innovation culture. Working with a team provides you with opportunities to develop and improve interpersonal, communication, leadership, and follower-ship skills. Group assignments and team project are also important for learning integrative skills through the development of a novel user interface.
+                         <p>I strongly encourage you to get to know all of your classmates and to collaborate extensively with them. Because of the interdisciplinary nature of this course, you may be strong in some areas but weak in others. Please share your strengths, and feel free to ask others for help.
+                         <p>Here is a summary of the collaboration policy:
+                         <ul class="simple-list">
+                         <li><span class="fa fa-square-o"></span>In-class activities and discussion: This class requires your active contribution during our time together. Please come to class prepared and ready to contribute to our learning community. During class you will work in group using breakout rooms and other online tools. </li>
+                         <li><span class="fa fa-square-o"></span>Assignments: Some parts will be completed individually, others will require collaboration. The instructions will specify the collaboration policy for each task. Project: Teams of 2-3 students work together to complete and submit project milestones. You will be assigned to a team. </li>
+                         <li><span class="fa fa-square-o"></span>Quizzes: Absolutely no collaboration.
+                         </ul>
+                         </p>
+
+                         <h3>Disabilities</h3>
+                         <p>If you have a disability or condition, either long-term or temporary, and need reasonable academic adjustments in this course, please contact Disability Services to get a letter outlining your accommodation needs, and submit that letter to me. You should request accommodations as early as possible in the semester, or before the semester begins, since some situations can require significant time for review and accommodation design. If you need immediate accommodations, during the semester, please arrange to meet with me as soon as possible. If you are unsure but suspect you may have an undocumented need for accommodations, you are encouraged to contact Disability Services. They can provide assistance including screening and referral for assessments. Disability Services can be reached at disabilityservices@wellesley.edu, at 781-283-2434, by scheduling an appointment online at their website www.Wellesley.edu/disability.
+
+                         <h3>Computing and Laboratory Environment</h3>
+                         <p>We will primarily use the following platforms during the course:</p>
+                         <ul class="simple-list">
+                         <li><span class="fa fa-square-o"></span><a href="https://aframe.io/">A-Frame</a></li>
+                         <li><span class="fa fa-square-o"></span><a href="https://www.arduino.cc/en/Main/Software">Arduino development environment</a></li>
+                         <li><span class="fa fa-square-o"></span><a href="https://miro.com/">Miro for brainstorming and ideation</a></li>
+                         <li><span class="fa fa-square-o"></span>Code for the final project will be submitted using a <a href="https://github.com/">GitHub</a> account.</li>
+                         </ul> -->
+
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script type="text/javascript" src="js/bootstrap.js"></script>
+                <script type="text/javascript" src="js/SmoothScroll.js"></script>
+                <script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+                <script src="js/owl.carousel.js"></script>
+
+                <!-- Javascripts
+    ================================================== -->
+                <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

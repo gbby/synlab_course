@@ -1,0 +1,459 @@
+/* RE/LAB COLOURS
+*
+* light blue: #6796B8
+* dark blue: #5C556A
+* orange: #E96F23
+* yellow: #F5C943
+* light yellow: #F7F5E7
+*/
+
+3html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+
+body {
+    font: 300 "Source Sans Pro", Helvetica, sans-serif;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fafafa;
+    overflow:auto;
+    position: relative;
+}
+
+div.container_12.main {
+    margin-bottom: 20px;
+}
+
+
+/* HEADER */
+header {
+    margin: auto;
+    height: 240px;
+    max-width: 1600px;
+    background-color: #F7F5E7;
+}
+
+header .row {
+    margin: auto;
+    height: 200px;
+    max-width: 1600px;
+    background: url('../banners/relab_banner.png') no-repeat top;
+    -webkit-background-size: cover;
+}
+
+#site-name {
+    padding-left: 10%;
+    padding-top: 1.2%;
+}
+
+header h1 {
+    font-size: 70px;
+    font-family: Bitter, Georgia, serif;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+header li, header li a {
+    list-style: none;
+    margin: 0 0 0 30px;
+    padding: 0;
+    display: inline;
+    font-size: 18px;
+    color: #000000;  
+    cursor: pointer;
+}
+
+header li a:hover { 
+    color: #E96F23;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header ul {
+    float: right;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-top: 70px;
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+
+
+/* FOOTER */
+footer {
+    max-width: 100%;
+    margin: auto;
+    height: 140px;
+    background-color: #F7F5E7;
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    position: bottom;
+    bottom: 0;
+}
+
+
+#footer_row {
+    padding-left:70px;
+    padding-right: 70px;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+/* PEOPLE */
+#people_ul {
+    text-align: center;
+}
+
+#people_ul li {
+    list-style: none;  
+    display: inline-table;
+    padding-left: 40px;
+    height: 11em;
+    width: 100px;
+    margin: 0;
+}
+
+#people_ul div.institution_pic img {
+    margin: 0;
+    padding 0;
+    vertical-align: baseline;
+    max-width: 30px;
+}
+
+#people_ul li h2 {
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 2px;
+    white-space: nowrap;
+}
+
+#people_ul li h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    line-height: 1;
+    font-size: 12px;
+}
+
+div.person_bg .person_thumbnail img {
+    height: 140px;
+    width: 140px;
+}
+
+.person-info {
+    max-width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.people-pic {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+}
+
+.inst-logo {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    max-width: 25px;
+}
+
+/* CUSTOM DIVS */
+div.space {
+    height: 40px;
+}
+
+div.halfspace {
+    height: 40px;
+}
+
+div.quarterspace {
+    height: 10px;
+}
+
+p {
+    font-size: 14px;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    color: #6A6A70;
+    padding-left: 8px;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.index p {
+    padding: 0;
+}
+
+.details h2 {
+    color: #f35c04;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 38px;
+    color: #585858;
+    font-weight: 300;
+    padding: 36px 0 6px 0; 
+    line-height: 1.2em;
+}
+
+div#proj_title {
+    margin-bottom: 32px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+h2 {
+    margin-top:18px;
+    font-size: 26px;
+    color: #404040;
+    font-weight: 500;
+}
+
+.index h2 {
+    margin-bottom:6px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    color: #6A6A70;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+.details h3 {
+    text-align: right;
+    float: right;
+    clear: right;
+}
+
+h4 {
+    padding-left:8px;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+    text-decoration: none;
+    color: #6A6A70;
+}
+
+.details h4 {
+    text-align: right;
+    float: right;
+    clear: right;
+}
+
+div.current_item {
+    height: 160px;
+    background-color: #808080;
+    margin-bottom: 18px;
+}
+
+div.logo {
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain; 
+}
+
+div.logo1 {
+    background-image: url('../affiliations/ontario_no_bg.png');
+}
+
+div.logo2 {
+    background-image: url('../affiliations/relab_logo_no_bg.png');
+}
+
+div.logo3 {
+    background-image: url('../affiliations/ryerson-rgb.png');
+}
+
+div.logo4 {
+    background-image: url('../affiliations/cfi_no_bg.png');
+}
+
+div.logo5 {
+    background-image: url('../affiliations/synlab_logo_no_bg.png');
+}
+
+.box h3 {
+    width: 220px;
+    position: absolute;
+    bottom: 0px;
+    margin: 128px 0 0 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px;
+}
+
+div.box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+div.grid_3.current_item.box.box2 {
+    background-size: 240px;
+}
+
+div.grid_3.box {
+    position: relative;
+    background-size: 275px;
+}
+
+.container_12 .grid_4 h3 {
+    width: 300px;
+}
+
+/* PROJECTS */
+#proj_details #secondary {
+    padding-top:25px;
+}
+
+#proj_details h4 {
+    padding-top:5px;
+    color:#6A6A70;
+}
+
+#proj_details a h4 {
+    color:#69a5d3;
+}
+
+#paper-link:hover {
+    text-decoration:none;
+}
+
+div.page_cat {
+    padding: 10px 12px;
+    background-color: #f35c07;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    clear: right;
+    margin-top: 70px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+div.page_cat.proj_old {
+    background-color: #6A6A70;
+    color: #fff;
+}
+
+div.page_cat.paper {
+    background-color: #69a5d3;
+    color: #fff;
+}
+
+span.pdf_dl a {
+    background-color: #68c147;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+span.pdf_dl a:hover {
+    background-color: #6ab852;
+}
+
+div.proj_thumb {
+    width: 180px;
+    height: 180px;
+    float: right;
+    clear: right;
+    margin-bottom: 36px;
+    border-radius: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+}
+
+/* PAPERS */
+#papers-list {
+    padding: 0;
+}
+
+#paper-info {
+    list-style: none !important;
+    border-top: 1px solid #bfbfbf;
+    display: list-item;
+    margin: 0;
+    padding: 1em;
+}
+
+#papers-title {
+    font-size:1em;
+    color:#000000;
+}
+
+#papers-list p {
+    padding: 0;
+}
+
+#abstract-icon {
+    background: url(../icons/read_abstract.png) no-repeat;
+    display: block;
+    float: right;
+    height: 34px;
+    width: 34px;
+    margin: 2px;
+}
+
+#download-icon {
+    background: url(../icons/download_paper.png) no-repeat;
+    display: block;
+    float: right;
+    height: 34px;
+    width: 34px;
+    margin: 2px;
+}
+
+#paper-year {
+    margin-top:18px;
+}
+
+/* GENERAL */
+a {
+    color: #6796B8;
+}
+
+a:hover {
+    color: #E96F23;
+    text-decoration: none;
+}
+
+/* TWITTER TIMELINE */
+#tweets {
+    padding-top:60px;
+}

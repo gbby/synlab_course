@@ -1,0 +1,87 @@
+/* COLOURS
+ *
+ * navy: #08355E
+ * border blue: #115B9C
+ */
+
+/* HEADER */
+#header {
+    background-color: #08355E; 
+    margin-bottom: 0;
+}
+
+#header-background {
+    background-color: #08355E; 
+    border-bottom-style: solid;
+    border-bottom-color: #115B9C;
+    border-width: 7px;
+    height: 122px;
+}
+
+header {
+    background: url('/media/project_sites/embodied_creativity/banner.jpg') no-repeat center;    
+    height: 122px;
+    width: 965px;
+}
+
+header li a {
+    color: #ffffff;
+}
+
+header li a:hover {
+    color: #115B9C;
+}
+
+/* GENERAL */
+#h2-row {
+    background: url('/media/project_sites/logos/nsf_logo.gif') no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+img {
+    float: center;
+    max-height: 50%;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+b, p {
+    padding-left: 20px;
+}
+
+#proj_info {
+    padding-top: 10px;
+}
+
+h2 {
+    color: #08355E;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+h3 {
+    color: #115B9C;
+    padding-left: 10px;
+}
+
+h4 {
+    color: #000000;
+}
+
+a {
+    color: #08355E;
+}
+
+a:hover {
+    color: #115B9C;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #115B9C;
+    height: 110px;
+}

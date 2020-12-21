@@ -1,0 +1,35 @@
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Winter 2021 Synlab Course Recruitment</title>
+    <link rel='stylesheet' href="../../css/course.css">
+</head>
+
+<body>
+    <div class='container_12'>
+
+        <div class='row'>
+            <div class='col-12' id='header'>
+                <div id='lab_logo'>
+                    <img src='../../media/courses/lab-logo.png'>
+                </div>
+                <div id='primary'>
+                    <h2>Embodied Digital Media: Research/Design</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class='col-12' id='blurb'>
+              <p>Few digital technologies make use of the connection between our bodies and minds to support creativity and knowledge production. This research and design-centered course will provide students with the unique opportunity to envision the shape of research-based education in digital and embodied media, while working with the Synaesthetic Media Lab (synlab) on cutting edge projects in Tangible and Embodied Interaction for creativity and expression.</p>
+                <p>RTA 995 (undergrad) & MP 8995 (grad)</br> Winter 2021 | Thursday 12 - 3 PM | Online</br>Professor: <a class="link" href='https://www.ryerson.ca/rta/People/faculty/ali-mazalek/' target="_blank">Ali Mazalek</a> | <a class="link" href='mailto:mazalek@ryerson.ca'>mazalek@ryerson.ca</a></p>
+		<p>The winter 2021 iteration of this course is supported in part by an Epic MegaGrant. Students will have the opporutnity to work with the Unreal Game Engine on designing tangible and embodied interactions for real-time 3D environmnents in augmented and/or virtual reality.</p>
+                <p>To apply, fill out this <a class="link" href='https://forms.gle/pskHRDh2Mk4qf7hp8' target="_blank">google form</a>. The course has limited enrollment and draws a large number of applicants. We ask that you complete this brief form to help us in selecting an interdisciplinary mix of participants who are well suited for the course's unique learning environment. Please submit this form by Friday, January 1, 2021 for priority consideration.</p>
+		<p>Visit <a class="link" href='https://vimeo.com/synlab' target="_blank">vimeo.com/synlab</a> to see examples of lab research.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

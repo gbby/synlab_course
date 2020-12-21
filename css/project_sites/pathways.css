@@ -1,0 +1,111 @@
+/* COLOURS
+ *
+ * olive green: #554a2b
+ * mustard yellow: #cc9900
+ * grey: #6A6A70
+*/
+
+/* HEADER */
+#header {
+    background-color: #000000;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 90%;
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-bottom-color: #cc9900;
+    border-bottom-width: medium;
+}
+
+header {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    background-image: url('/media/project_sites/pathways/header.jpg');
+}
+
+header li a {
+    color: #cc9900;
+}
+
+header li a:hover {
+    color: #6A6A70;
+}
+
+/* FOOTER */
+footer {
+    background: #554a2b;
+    color: #cc9900;
+    font-family: sans-serif;
+    font-size: 90%;
+    text-transform: uppercase;
+    border-top-style: solid;
+    border-top-color: #cc9900;
+    border-top-width: medium;
+    height: 100px;
+}
+
+/* GENERAL */
+#pathways {
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ 
+p {
+    padding: 0;
+}
+
+h2 {
+    color: #cc9900;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 640px;
+    height: 376px;
+}
+
+
+/* LOGO SIDE BAR */
+#logo-bar img {
+    width: 80%;
+    padding-top: 15px;
+}
+ 
+#logo-bar p {
+    margin: 0;
+}
+
+a {
+    color: #554a2b;
+}
+
+a:hover {
+    color: #cc9900;
+    text-decoration: none;
+}
+
+/* PUBLICATONS */
+#citation {
+    font-style: italic;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* TEAM LIST */
+#team-category li {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #6A6A70;
+    font-size: 14px;
+}

@@ -1,0 +1,415 @@
+/* SYNLAB COLOURS
+*
+* red = #A02521
+* orange = #F36F2F
+* yellow = #F6CD2C
+* grey = #6A6A70
+* blue = #69a5d3 
+*
+*/
+
+3html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+
+body {
+    font-family: "DejaVu Sans", "Bitstream Vera Sans", "Segoe UI", "Lucida Grande", Verdana, Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fafafa;
+    overflow: auto;
+}
+
+div.container_12.main {
+    margin-bottom: 20px;
+}
+
+
+/* HEADER */
+.header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;  
+}
+
+.header {
+    height: 150px;
+    background-image: url('banners/top_banner_3.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.header li, .header li a {
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0 0 0 12px;
+    padding: 0;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6A6A70;
+    cursor: pointer;
+}
+
+.header li a:hover { 
+    color: #f36f2f;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header ul {
+    float: right;
+    margin-top:60px;
+}
+
+#home_link_col, #home_link_div, #home_link {
+    height: 100%;
+}
+
+#home_link_col {
+    padding: 0 25% 0 0;
+}
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 175px;
+    background-color: #ababab;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    border-top: 1px solid #939393;
+    position: bottom;
+    bottom: 0;
+}
+
+
+#footer_row {
+    margin-bottom: 18px;
+}
+
+/* PEOPLE */
+#people_ul {
+    text-align: center;
+}
+
+#people_ul li {
+    list-style: none;  
+    display: inline-table;
+    padding-left: 40px;
+    height: 11em;
+    width: 100px;
+    margin: 0;
+}
+
+#people_ul div.institution_pic img {
+    margin: 0;
+    padding 0;
+    vertical-align: baseline;
+    max-width: 30px;
+}
+
+#people_ul li h2 {
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 2px;
+    white-space: nowrap;
+}
+
+#people_ul li h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    line-height: 1;
+    font-size: 12px;
+}
+
+div.person_bg .person_thumbnail img {
+    height: 140px;
+    width: 140px;
+}
+
+.person-info {
+    max-width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.people-pic {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+}
+
+.inst-logo {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    max-width: 25px;
+}
+
+.person-data {
+    color: #6A6A70;
+}
+
+.person-data a {
+    color: #69a5d3;
+}
+
+.person-data a:hover {
+    color: #6A6A70;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CUSTOM DIVS */
+div.space {
+    height: 40px;
+}
+
+div.halfspace {
+    height: 40px;
+}
+
+div.quarterspace {
+    height: 10px;
+}
+
+p {
+    font-size: 14px;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    color: #6A6A70;
+    padding-left: 8px;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.index p {
+    padding: 0;
+}
+
+.details h2 {
+    color: #f35c04;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 38px;
+    color: #585858;
+    font-weight: 100;
+    padding: 36px 0 6px 0; 
+    line-height: 1.2em;
+}
+
+div#proj_title {
+    margin-bottom: 32px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+h2 {
+    margin-top:18px;
+    font-size: 26px;
+    color: #404040;
+    font-weight: 500;
+}
+
+.index h2 {
+    margin-bottom:6px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    color: #6A6A70;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+.details h3 {
+    text-align: right;
+    float: right;
+    clear: right;
+}
+
+h4 {
+    padding-bottom: 5px;
+    padding-left:8px;
+    font-weight: normal;
+    font-size: 16px;
+    color: blue;
+    margin: 0;
+    text-decoration: none;
+    color: #69a5d3;
+}
+
+.details h4 {
+    text-align: right;
+    float: right;
+    clear: right;
+}
+
+div.current_item {
+    height: 160px;
+    background-color: #808080;
+    margin-bottom: 18px;
+}
+
+div.logo {
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.logo1 {
+    background-image: url('../affiliations/ryerson_h60.png');
+}
+
+div.logo2 {
+    background-image: url('../affiliations/georgia_tech_h60.png');
+}
+
+.box h3 {
+    width: 220px;
+    position: absolute;
+    bottom: 0px;
+    margin: 128px 0 0 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px;
+}
+
+div.box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+div.grid_3.current_item.box.box2 {
+    background-size: 240px;
+}
+
+div.grid_3.box {
+    position: relative;
+    background-size: 275px;
+}
+
+.container_12 .grid_4 h3 {
+    width: 300px;
+}
+
+/* PROJECTS */
+#proj_details #secondary {
+    padding-top:25px;
+}
+
+#person-link {
+    color: #69a5d3;
+}
+
+#person-link:hover {
+    color: #6A6A70;
+    text-decoration:none;
+}
+
+#person-profile-link:hover {
+    text-decoration: none;
+}
+
+div.page_cat {
+    padding: 10px 12px;
+    background-color: #f35c07;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    clear: right;
+    margin-top: 70px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+div.page_cat.proj_old {
+    background-color: #6A6A70;
+    color: #fff;
+}
+
+div.page_cat.paper {
+    background-color: #69a5d3;
+    color: #fff;
+}
+
+span.pdf_dl a {
+    background-color: #68c147;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+span.pdf_dl a:hover {
+    background-color: #6ab852;
+}
+
+div.proj_thumb {
+    width: 180px;
+    height: 180px;
+    float: right;
+    clear: right;
+    margin-bottom: 36px;
+    border-radius: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+}
+
+/* PAPERS */
+#papers-list {
+    padding:0;
+}
+
+#paper-info {
+    list-style: none !important;
+    border-top: 1px solid #bfbfbf;
+    display: list-item;
+    margin: 0;
+    padding: 1em;
+}
+
+#papers-title {
+    font-size:1em;
+    color:#000000;
+}
+
+#papers-list p {
+    padding: 0;
+}
+
+#download-icon {
+    background: url(../icons/download_paper.png) no-repeat;
+    display: block;
+    float: right;
+    height: 34px;
+    width: 34px;
+    margin: 2px;
+}
+
+#paper-year {
+    margin-top:18px;
+}
