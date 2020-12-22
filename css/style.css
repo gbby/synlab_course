@@ -185,6 +185,8 @@ ol {
     /* IE6-9 */
     height: 750px;
     background-attachment: fixed;
+    overflow: auto;
+    height: 100%;
 }
 
 #tf-home p.lead {
